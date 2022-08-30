@@ -6,7 +6,6 @@ font-family: 'Poppins', sans-serif; */
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  font-family: 'DM Sans', sans-serif;
 }
 
 .navbar {
@@ -18,12 +17,11 @@ font-family: 'Poppins', sans-serif; */
 .navbar .nav-brand {
   font-size: 1.4rem;
   font-weight: 700;
-  font-family: 'DM Sans';
 }
 #navbarSupportedContent > ul > li:nth-child(n) > a {
   color: #fff;
   font-size: 1.1rem;
-  font-family: 'DM Sans';
+
   padding-inline: 0.8rem;
 }
 
@@ -35,7 +33,7 @@ font-family: 'Poppins', sans-serif; */
   background: #00bf85;
   font-weight: 600;
   padding: 0.4rem 1.4rem;
-  border-radius: 100vmax;
+  border-radius: 30px;
 }
 #navbarSupportedContent > button:hover {
   background: #fff;
@@ -78,7 +76,7 @@ font-family: 'Poppins', sans-serif; */
   background: #00bf85;
   font-weight: 600;
   padding: 0.6rem 1.4rem;
-  border-radius: 100vmax;
+  border-radius: 30px;
   text-decoration: none;
 }
 
@@ -118,7 +116,7 @@ font-family: 'Poppins', sans-serif; */
   background: #00bf85;
   font-weight: 600;
   padding: 0.6rem 1.4rem;
-  border-radius: 100vmax;
+  border-radius: 30px;
   text-decoration: none;
   color: #111;
 }
@@ -155,6 +153,56 @@ font-family: 'Poppins', sans-serif; */
   font-weight: 500;
   padding: 0.6rem 1.4rem;
   border-radius: 100vmax;
+  text-decoration: none;
+  color: #fff;
+}
+
+.service {
+  background: #000;
+}
+
+.service .one {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1.5rem;
+  border-radius: 7px;
+}
+
+.sign {
+}
+.sign .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+}
+.sign .text h6 {
+  color: #00bf7f;
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+.sign .text h2 {
+  color: #111;
+  font-weight: 700;
+  font-size: 2.7rem;
+}
+
+.sign .text p {
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+.sign .text a {
+  background: #111;
+  font-weight: 500;
+  padding: 0.6rem 1.4rem;
+  border-radius: 30px;
   text-decoration: none;
   color: #fff;
 }
