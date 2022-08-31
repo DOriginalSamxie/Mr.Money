@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbarSupportedContent">
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid">
@@ -31,16 +31,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Discover</a>
+                <a class="nav-link" href="#discovery">Discover</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Service</a>
+                <a class="nav-link" href="#service">Service</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sign up</a>
+                <a class="nav-link" href="#sign">Sign up</a>
               </li>
             </ul>
             <button class="btn btn-success text-dark" type="submit">
@@ -65,7 +65,7 @@
         </div>
       </div>
     </header>
-    <section class="about py-5">
+    <section id="about" class="about py-5">
       <div class="row align-items-center container my-5 mx-auto">
         <div class="text col-lg-6 col-md-6 col-12 pt-5 pb-5">
           <h6>PREMIUM BANK</h6>
@@ -82,7 +82,7 @@
         </div>
       </div>
     </section>
-    <section class="discovery py-5">
+    <section id="discovery" class="discovery py-5">
       <div class="row align-items-center container my-5 mx-auto">
         <div class="img col-lg-6 col-md-6 col-12 pt-5 pb-5">
           <img src="/images/2.png" class="img-fluid" alt="" />
@@ -100,7 +100,7 @@
       </div>
     </section>
 
-    <section class="service py-5">
+    <section id="service" class="service py-5">
       <div class="col mx-auto align-items-center my-5">
         <div class="heading text-center pt-5 pb-5">
           <h2 class="font-weight-bold text-light">Our Services</h2>
@@ -136,7 +136,7 @@
       </div>
     </section>
 
-    <section class="sign py-5">
+    <section id="sign" class="sign py-5">
       <div class="row align-items-center container my-5 mx-auto">
         <div class="text col-lg-6 col-md-6 col-12 pt-5 pb-5">
           <h6>JOIN OUR TEAM</h6>
@@ -153,6 +153,159 @@
         </div>
       </div>
     </section>
+    <footer
+      class="page-footer font-small stylish-color-dark pt-4 text-light
+      style="padding-left: 0px"
+    >
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-4 mx-auto">
+            <!-- Content -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+              Reach Us here
+            </h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, obcaecati!
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 mx-auto">
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Link 1</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 mx-auto">
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Link 1</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 mx-auto">
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Link 1</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+      <!-- Footer Links -->
+
+      <hr />
+
+      <!-- Call to action -->
+      <ul class="list-unstyled list-inline text-center py-2">
+        <li class="list-inline-item">
+          <h5 class="mb-1">Register for free</h5>
+        </li>
+        <li class="list-inline-item">
+          <a
+            href="#!"
+            class="btn btn-danger btn-rounded waves-effect waves-light"
+            >Sign up!</a
+          >
+        </li>
+      </ul>
+      <!-- Call to action -->
+
+      <hr />
+
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1 waves-effect waves-light">
+            <i class="fab fa-facebook-f"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1 waves-effect waves-light">
+            <i class="fab fa-twitter"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1 waves-effect waves-light">
+            <i class="fab fa-google-plus-g"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-li mx-1 waves-effect waves-light">
+            <i class="fab fa-linkedin-in"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-dribbble mx-1 waves-effect waves-light">
+            <i class="fab fa-dribbble"> </i>
+          </a>
+        </li>
+      </ul>
+      <!-- Social buttons -->
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © 2022 Copyright:
+        <a href="/"> DOriginalSamxie</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
       integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
